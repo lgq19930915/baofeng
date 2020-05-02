@@ -1,0 +1,239 @@
+.w{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background: #f9f9f9;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.header a{
+    display: block;
+    width: 169px;
+    height: 36px;
+    background: url("../images/image/new-sso.png") 0 -306px;
+}
+.main {
+    width: 100%;
+    height: 542px;
+    background: #46a4e9;
+}
+.main .w{
+    height: 542px;
+    background:url("../images/image/mbanner.jpg");
+}
+.main .left{
+    float: left;
+    margin-top: 67px;
+    height: 450px;
+}
+.main .right{
+    float: left;
+    margin-left: 40px;
+    margin-top: 53px;
+    background: #fff;
+    width: 332px;
+    height: 446px;
+    box-sizing: border-box;
+    padding: 22px 24px 0px;
+}
+.main .right .a1{
+    display: block;
+    width: 80px; 
+    height: 19px;
+    background: url("../images/image/new-sso.png") 0px -2px;
+}
+.main .right .p1{
+    margin-top: 20px;
+    color: red;
+    height: 15px;
+}
+.main .right .div1{
+    width: 100%;
+    height: 32px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.main .right .div1 i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/image/new-sso.png") 0 -30px;
+    vertical-align: top;
+}
+.main .right .div1 input{
+    width: 225px;
+    height: 30px;
+    vertical-align: top;
+}
+.main .right .div1 span{
+    line-height: 30px;
+    cursor: pointer;
+    display: none;
+}
+.main .right .div1:hover span{
+    display: inline;
+}
+.main .right .div1 .in2{
+    width: 217px;
+}
+.main .right .div1 em{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url("../images/image/new-sso.png") -40px -70px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.main .right .div1 .i2{
+    background: url("../images/image/new-sso.png") -30px -30px;
+}
+.main .right .div2{
+    width: 142px;
+    height: 32px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 10px;
+    float: left;
+}
+.main .right .div2 i{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/image/new-sso.png") -60px -30px;
+    vertical-align: top;
+
+}
+.main .right .div2 .in1{
+    width: 105px;
+    height: 30px;
+    vertical-align: top;
+}
+.main .right .div3{
+    float: left;
+    width: 92px;
+    height: 32px;
+    margin: 10px 10px 0 8px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+.main .right .div4{
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: url("../images/image/new-sso.png") -120px -30px;
+}
+.main .right .div5{
+    float: left;
+    width: 134px;
+    height: 32px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: 8px;
+    line-height: 32px;
+    color: #999;
+    text-align: center;
+}
+
+
+
+.main .right .div6{
+    margin: 8px 0;
+    height: 25px;
+    line-height: 25px;
+}
+.main .right .div6 i{
+    float: left;
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: url("../images/image/new-sso.png");
+    background-position: -20px -66px;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.main .right .div6 .i3{
+    background-position: -165px -74px;
+}
+.main .right .div6 span{
+    float: left;
+    cursor: pointer;
+}
+.main .right .div6 p{
+    float: right;
+    color: #1a9eff;
+}
+.main .right .div6 a{
+    color: #1a9eff;
+}
+.main .right button{
+    width: 100%;
+    height: 38px;
+    color: #fff;
+    background-color: #1a9eff;
+    border: none;
+    cursor: pointer;
+}
+.main .right .div7{
+    text-align: center;
+    margin-top: 25px;
+}
+.main .right .div7 .pp1 span{
+    width: 78px;
+    display: inline-block;
+    border-bottom: 1px solid #e1e1e1;
+    vertical-align: middle;
+}
+.main .right .div7 .pp1 i{
+    color: #999999;
+    margin: 0 5px;
+    font-size: 13px;
+}
+.main .right .div7 .pp2{
+    margin-top: 14px;
+}
+.main .right .div7 .pp2 a{
+    
+    display: inline-block;
+    width: 30px; 
+    height: 30px;
+    background: url("../images/image/new-sso.png");
+    background-position: 0 -350px;
+    margin: 0 10px;
+}
+.main .right .div7 .pp2 .a2{
+    background-position: -30px -350px;
+}
+.main .right .div7 .pp2 .a3{
+    background-position: -60px -350px;
+}
+
+
+
+
+
+.footer{
+    height: 112px;
+    background: #f9f9f9;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    padding-top: 26px;
+    box-sizing: border-box;
+    line-height: 23px;
+}

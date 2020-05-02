@@ -1,0 +1,29 @@
+[{
+    "big_img": "./images/banners/banner1.jpg",
+    "small_img": "./images/banners/1.jpg"
+
+}, {
+    "big_img": "./images/banners/banner2.jpg",
+    "small_img": "./images/banners/2.jpg"
+}, {
+    "big_img": "./images/banners/banner3.jpg",
+    "small_img": "./images/banners/3.jpg"
+}, {
+    "big_img": "./images/banners/banner4.jpg",
+    "small_img": "./images/banners/4.jpg"
+}, {
+    "big_img": "./images/banners/banner5.jpg",
+    "small_img": "./images/banners/5.jpg"
+}, {
+    "big_img": "./images/banners/banner6.jpg",
+    "small_img": "./images/banners/6.jpg"
+}, {
+    "big_img": "./images/banners/banner7.jpg",
+    "small_img": "./images/banners/7.jpg"
+}, {
+    "big_img": "./images/banners/banner8.jpg",
+    "small_img": "./images/banners/8.jpg"
+}, {
+    "big_img": "./images/banners/banner9.jpg",
+    "small_img": "./images/banners/9.jpg"
+}]

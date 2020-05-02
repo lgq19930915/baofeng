@@ -1,0 +1,419 @@
+/* 头部 */
+header {
+  width: 100%;
+  height: 65px;
+  background-image: url(../images/image/vip-bgs.png);
+  border-bottom: 2px solid #ccc;
+}
+header .wrap {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  /*LOGO */
+  /* 头部导航 */
+}
+header .wrap .header_logo {
+  margin-top: 8px;
+  width: 190px;
+  height: 30px;
+  background-image: url(../images/image/vip-logo.png);
+  background-position: 0 63px;
+  margin-left: 20px;
+}
+header .wrap .header_nav a {
+  display: inline-block;
+  width: 60px;
+  color: #ccc;
+  line-height: 56px;
+}
+/* 1楼 */
+.floor_one {
+  background-color: #f3f3f3;
+  width: 100%;
+  position: relative;
+}
+.floor_one .wrap {
+  width: 1100px;
+  padding-top: 3px;
+}
+.floor_one .wrap .one {
+  background-color: #2c3134;
+}
+.floor_one .wrap .one .active {
+  background-color: #0b68c8;
+}
+.floor_one .wrap .one a {
+  color: #fff;
+  line-height: 40px;
+  margin-left: 20px;
+  padding: 0px 30px;
+  display: inline-block;
+}
+.floor_one .wrap #banner {
+  width: 1100px;
+  height: 440px;
+  position: relative;
+  /* 左边按钮 */
+  /* 右边按钮 */
+}
+.floor_one .wrap #banner .lbtn {
+  position: absolute;
+  left: 3px;
+  top: 49%;
+  width: 36px;
+  height: 36px;
+  z-index: 10;
+  border-radius: 50%;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: -3px -53px;
+}
+.floor_one .wrap #banner .rbtn {
+  position: absolute;
+  right: 3px;
+  top: 49%;
+  width: 36px;
+  height: 36px;
+  z-index: 10;
+  border-radius: 50%;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: -47px -53px;
+}
+.floor_one .wrap #banner li {
+  position: absolute;
+  opacity: 0;
+}
+.floor_one .wrap #banner p {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  height: 48px;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: 0 178px;
+  text-align: center;
+}
+.floor_one .wrap #banner p img {
+  opacity: 0;
+}
+.floor_one .wrap .p {
+  width: 100px;
+  height: 24px;
+  margin: 20px 30px 10px 10px;
+  background-image: url(../images/image/vip-logo.png);
+}
+.floor_one .wrap #vip_wrap {
+  width: 1100px;
+  height: 112px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 30px;
+}
+.floor_one .wrap #vip_wrap #vip_lbtn {
+  position: absolute;
+  left: 0;
+  top: 35%;
+  z-index: 15;
+  display: inline-block;
+  width: 15px;
+  height: 26px;
+  background-image: url(../images/image/vip-bgs.png);
+  background-position: 0 -124px;
+}
+.floor_one .wrap #vip_wrap #vip_rbtn {
+  z-index: 15;
+  position: absolute;
+  right: 0;
+  top: 35%;
+  display: inline-block;
+  width: 15px;
+  height: 26px;
+  background-image: url(../images/image/vip-bgs.png);
+  background-position: -15px -124px;
+}
+.floor_one .wrap #vip_wrap ul {
+  position: absolute;
+  left: 0;
+  margin-left: 9px;
+}
+.floor_one .wrap #vip_wrap ul li {
+  width: 200px;
+  height: 112px;
+  float: left;
+  margin: 0 9px 0 9px;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: 0 0;
+}
+.floor_one .wrap .vip_sj {
+  padding-bottom: 40px;
+}
+section {
+  background-color: #f3f3f3;
+  margin-top: -20px;
+}
+section .recommend,
+section .recommend {
+  width: 1100px;
+  height: 437px;
+  margin: 0 auto;
+  position: relative;
+}
+section .recommend .rh_p,
+section .recommend .rh_p {
+  width: 1100px;
+  height: 30px;
+  margin: 20px auto 0;
+  display: block;
+  float: left;
+}
+section .recommend .rh_p a,
+section .recommend .rh_p a {
+  display: block;
+  width: 100px;
+  height: 23px;
+  background-image: url('../images/image/vip-logo.png');
+  background-position: 0 -24px;
+}
+section .recommend .rh_p span,
+section .recommend .rh_p span {
+  position: absolute;
+  top: 7px;
+  right: 2px;
+}
+section .recommend .rh_p span a,
+section .recommend .rh_p span a {
+  width: 50px;
+  background-image: url('');
+}
+section .recommend ul li,
+section .recommend ul li {
+  float: left;
+  width: 205px;
+  margin-right: 15px;
+  position: relative;
+}
+section .recommend ul li a img,
+section .recommend ul li a img {
+  width: 205px;
+  height: 287px;
+}
+section .recommend ul li .move_title p a,
+section .recommend ul li .move_title p a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 23px;
+}
+section .recommend ul li .move_title em,
+section .recommend ul li .move_title em {
+  color: #999999;
+}
+section .recommend ul li .move_type1,
+section .recommend ul li .move_type1 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  display: inline-block;
+  width: 103px;
+  height: 19px;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: 0px -20px;
+}
+section .recommend ul li .move_type2,
+section .recommend ul li .move_type2 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  display: inline-block;
+  width: 103px;
+  height: 19px;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: -108px 0px;
+}
+section .recommend ul li .move_type3,
+section .recommend ul li .move_type3 {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  display: inline-block;
+  width: 103px;
+  height: 19px;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: 0px 0px;
+}
+section .recommend ul li .move_definition,
+section .recommend ul li .move_definition {
+  position: absolute;
+  right: 14px;
+  bottom: 70px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  width: 35px;
+  text-align: center;
+  height: 20px;
+  line-height: 20px;
+}
+section .recommend ul li .move_grade,
+section .recommend ul li .move_grade {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: #fd6600;
+  right: 1px;
+  top: 302px;
+  font-family: Georgia;
+  font-size: 16px;
+}
+section .recommend ul li .move_grade i,
+section .recommend ul li .move_grade i {
+  font-size: 14px;
+}
+section .recommend .hot p a,
+section .recommend .hot p a {
+  background-position: 0 -49px;
+}
+footer {
+  background-color: #f3f3f3;
+  height: 430px;
+}
+footer .x {
+  width: 1100px;
+  margin: 0 auto;
+  height: 1px;
+  background-color: #e1dfdb;
+}
+footer .wrap {
+  width: 1100px;
+  margin: 0 auto;
+}
+footer .wrap .help {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e1dfdb;
+  width: 1100px;
+  display: flex;
+}
+footer .wrap .help .newbie {
+  margin: 40px 0;
+  padding-left: 50px;
+  width: 224px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .newbie .newbie_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .newbie .newbie_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: 0 -111px;
+}
+footer .wrap .help .newbie .newbie_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .newbie .newbie_a a {
+  line-height: 20px;
+}
+footer .wrap .help .newbie .newbie_a .newbie_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .privilege {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .privilege .privilege_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .privilege .privilege_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -50px -111px;
+}
+footer .wrap .help .privilege .privilege_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .privilege .privilege_a a {
+  line-height: 20px;
+}
+footer .wrap .help .privilege .privilege_a .privilege_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .play {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .play .play_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .play .play_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -102px -111px;
+}
+footer .wrap .help .play .play_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .play .play_a a {
+  line-height: 20px;
+}
+footer .wrap .help .play .play_a .play_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .else {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+}
+footer .wrap .help .else .else_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .else .else_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -153px -111px;
+}
+footer .wrap .help .else .else_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .else .else_a a {
+  line-height: 20px;
+}
+footer .wrap .help .else .else_a .else_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .copyright {
+  text-align: center;
+  padding: 50px 0;
+  color: #9a9690;
+  line-height: 25px;
+  width: 1100px;
+  border-top: 1px solid #fff;
+}

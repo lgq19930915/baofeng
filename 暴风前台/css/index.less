@@ -1,0 +1,509 @@
+/* 头部 */
+header {
+    width: 100%;
+    height: 65px;
+    background-image: url(../images/image/vip-bgs.png);
+    border-bottom: 2px solid #ccc;
+
+    .wrap {
+        width: 1100px;
+        display: flex;
+        justify-content: space-between;
+
+        /*LOGO */
+        .header_logo {
+            margin-top: 8px;
+            width: 190px;
+            height: 30px;
+            background-image: url(../images/image/vip-logo.png);
+            background-position: 0 63px;
+            margin-left: 20px;
+        }
+
+        /* 头部导航 */
+        .header_nav {
+
+
+            a {
+                display: inline-block;
+                width: 60px;
+                color: #ccc;
+                line-height: 56px;
+            }
+        }
+    }
+}
+
+/* 1楼 */
+.floor_one {
+    background-color: #f3f3f3;
+    width: 100%;
+    position: relative;
+
+    .wrap {
+        width: 1100px;
+        // border-bottom: 1px solid #e1dfdb;
+
+        padding-top: 3px;
+
+        .one {
+            background-color: #2c3134;
+
+            .active {
+                background-color: #0b68c8;
+            }
+
+            a {
+                color: #fff;
+                line-height: 40px;
+                margin-left: 20px;
+                padding: 0px 30px;
+                display: inline-block;
+            }
+        }
+
+        // 轮播图
+        #banner {
+            width: 1100px;
+            height: 440px;
+            position: relative;
+
+            /* 左边按钮 */
+            .lbtn {
+                position: absolute;
+                left: 3px;
+                top: 49%;
+                width: 36px;
+                height: 36px;
+                z-index: 10;
+                border-radius: 50%;
+                background-image: url(../images/image/vip-tips.png);
+                background-position: -3px -53px;
+            }
+
+            /* 右边按钮 */
+            .rbtn {
+                position: absolute;
+                right: 3px;
+                top: 49%;
+                width: 36px;
+                height: 36px;
+                z-index: 10;
+                border-radius: 50%;
+                background-image: url(../images/image/vip-tips.png);
+                background-position: -47px -53px;
+            }
+
+            li {
+                position: absolute;
+                opacity: 0;
+            }
+
+            p {
+                position: absolute;
+                bottom: 20px;
+                width: 100%;
+                height: 48px;
+                background-image: url(../images/image/vip-tips.png);
+                background-position: 0 178px;
+                text-align: center;
+
+                img {
+                    opacity: 0;
+                }
+            }
+
+        }
+
+        .p {
+            width: 100px;
+            height: 24px;
+            margin: 20px 30px 10px 10px;
+            background-image: url(../images/image/vip-logo.png);
+        }
+
+        // vip特权
+        #vip_wrap {
+            width: 1100px;
+            height: 112px;
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 30px;
+
+            #vip_lbtn {
+                position: absolute;
+                left: 0;
+                top: 35%;
+                z-index: 15;
+                display: inline-block;
+                width: 15px;
+                height: 26px;
+                background-image: url(../images/image/vip-bgs.png);
+                background-position: 0 -124px;
+            }
+
+            #vip_rbtn {
+                z-index: 15;
+                position: absolute;
+                right: 0;
+                top: 35%;
+                display: inline-block;
+                width: 15px;
+                height: 26px;
+                background-image: url(../images/image/vip-bgs.png);
+                background-position: -15px -124px;
+            }
+
+            ul {
+                position: absolute;
+                left: 0;
+                margin-left: 9px;
+
+                li {
+                    width: 200px;
+                    height: 112px;
+                    float: left;
+                    margin: 0 9px 0 9px;
+                    background-image: url(../images/image/vip-powers.png);
+                    background-position: 0 0;
+                }
+            }
+        }
+
+        // VIP华丽升级
+        .vip_sj {
+
+            padding-bottom: 40px;
+        }
+
+    }
+
+}
+
+// 推荐热门
+section {
+    background-color: #f3f3f3;
+    margin-top: -20px;
+
+    .recommend,
+    .recommend {
+        width: 1100px;
+        height: 437px;
+        margin: 0 auto;
+        position: relative;
+
+        .rh_p {
+            width: 1100px;
+            height: 30px;
+            margin: 20px auto 0;
+            display: block;
+            float: left;
+
+            a {
+                display: block;
+                width: 100px;
+                height: 23px;
+                background-image: url('../images/image/vip-logo.png');
+                background-position: 0 -24px;
+            }
+
+            span {
+                position: absolute;
+                top: 7px;
+                right: 2px;
+
+                a {
+                    width: 50px;
+                    background-image: url('');
+                }
+            }
+        }
+
+        ul {
+
+            li {
+                float: left;
+                width: 205px;
+                margin-right: 15px;
+                position: relative;
+
+                a {
+                    img {
+                        width: 205px;
+                        height: 287px;
+                    }
+                }
+
+                .move_title {
+                    p {
+                        a {
+                            font-size: 14px;
+                            font-weight: 600;
+                            line-height: 23px;
+                        }
+                    }
+
+                    em {
+                        color: #999999;
+                    }
+
+                }
+
+                .move_type1 {
+                    position: absolute;
+                    left: 15px;
+                    top: 15px;
+                    display: inline-block;
+                    width: 103px;
+                    height: 19px;
+                    background-image: url(../images/image/vip-tips.png);
+                    background-position: 0px -20px;
+                }
+
+                .move_type2 {
+                    position: absolute;
+                    left: 15px;
+                    top: 15px;
+                    display: inline-block;
+                    width: 103px;
+                    height: 19px;
+                    background-image: url(../images/image/vip-tips.png);
+                    background-position: -108px 0px;
+                }
+
+                .move_type3 {
+                    position: absolute;
+                    left: 15px;
+                    top: 15px;
+                    display: inline-block;
+                    width: 103px;
+                    height: 19px;
+                    background-image: url(../images/image/vip-tips.png);
+                    background-position: 0px 0px;
+                }
+
+                .move_definition {
+                    position: absolute;
+                    right: 14px;
+                    bottom: 70px;
+                    color: #fff;
+                    background-color: rgba(0, 0, 0, 0.3);
+                    display: inline-block;
+                    width: 35px;
+                    text-align: center;
+                    height: 20px;
+                    line-height: 20px;
+                }
+
+                .move_grade {
+                    position: absolute;
+                    right: 0px;
+                    bottom: 0px;
+                    color: #fd6600;
+                    right: 1px;
+                    top: 302px;
+                    font-family: Georgia;
+                    font-size: 16px;
+
+                    i {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .hot {
+            p {
+                a {
+                    background-position: 0 -49px;
+                }
+            }
+        }
+
+
+    }
+}
+
+// 底部
+footer {
+    background-color: #f3f3f3;
+    height: 430px;
+
+    .x {
+        width: 1100px;
+        margin: 0 auto;
+        height: 1px;
+        background-color: #e1dfdb;
+
+    }
+
+    .wrap {
+        width: 1100px;
+        margin: 0 auto;
+
+        // 帮助模块
+        .help {
+            border-top: 1px solid #fff;
+            border-bottom: 1px solid #e1dfdb;
+            width: 1100px;
+            display: flex;
+
+            // 新手指南
+            .newbie {
+                margin: 40px 0;
+                padding-left: 50px;
+                width: 224px;
+                position: relative;
+                border-right: 1px solid #e1dfdb;
+
+                .newbie_span {
+                    display: inline-block;
+                    position: absolute;
+                    top: 6px;
+
+                    span {
+                        width: 51px;
+                        height: 51px;
+                        display: inline-block;
+                        background-image: url(../images/image/vip-powers.png);
+                        background-position: 0 -111px;
+                    }
+                }
+
+                .newbie_a {
+                    display: inline-block;
+                    margin-left: 70px;
+
+                    a {
+                        line-height: 20px;
+                    }
+
+                    .newbie_a1 {
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            //    特权问题 
+            .privilege {
+                margin: 40px 0;
+                width: 224px;
+                padding-left: 50px;
+                position: relative;
+                border-right: 1px solid #e1dfdb;
+
+                .privilege_span {
+                    display: inline-block;
+                    position: absolute;
+                    top: 6px;
+
+                    span {
+                        width: 51px;
+                        height: 51px;
+                        display: inline-block;
+                        background-image: url(../images/image/vip-powers.png);
+                        background-position: -50px -111px;
+                    }
+                }
+
+                .privilege_a {
+                    display: inline-block;
+                    margin-left: 70px;
+
+                    a {
+                        line-height: 20px;
+                    }
+
+                    .privilege_a1 {
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            // 付款方式
+            .play {
+                margin: 40px 0;
+                width: 224px;
+                padding-left: 50px;
+                position: relative;
+                border-right: 1px solid #e1dfdb;
+
+                .play_span {
+                    display: inline-block;
+                    position: absolute;
+                    top: 6px;
+
+                    span {
+                        width: 51px;
+                        height: 51px;
+                        display: inline-block;
+                        background-image: url(../images/image/vip-powers.png);
+                        background-position: -102px -111px;
+                    }
+                }
+
+                .play_a {
+                    display: inline-block;
+                    margin-left: 70px;
+
+                    a {
+                        line-height: 20px;
+                    }
+
+                    .play_a1 {
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                }
+            }
+
+            // 其他问题
+            .else {
+                margin: 40px 0;
+                width: 224px;
+                padding-left: 50px;
+                position: relative;
+
+                .else_span {
+                    display: inline-block;
+                    position: absolute;
+                    top: 6px;
+
+                    span {
+                        width: 51px;
+                        height: 51px;
+                        display: inline-block;
+                        background-image: url(../images/image/vip-powers.png);
+                        background-position: -153px -111px;
+                    }
+                }
+
+                .else_a {
+                    display: inline-block;
+                    margin-left: 70px;
+
+                    a {
+                        line-height: 20px;
+                    }
+
+                    .else_a1 {
+                        font-weight: 600;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    // copyright版权
+    .copyright {
+        text-align: center;
+        padding: 50px 0;
+        color: #9a9690;
+        line-height: 25px;
+        width: 1100px;
+        border-top: 1px solid #fff;
+    }
+}

@@ -1,0 +1,287 @@
+header {
+  width: 100%;
+  height: 55px;
+  background-image: url(../images/image/vip-bgs.png);
+  border-bottom: 2px solid #ccc;
+}
+header .wrap {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  /*LOGO */
+  /* 头部导航 */
+}
+header .wrap .header_logo {
+  width: 190px;
+  height: 30px;
+  margin-top: 10px;
+  background-image: url(../images/image/vip-logo.png);
+  background-position: 0 63px;
+  margin-left: 20px;
+}
+header .wrap .header_nav a {
+  display: inline-block;
+  width: 60px;
+  color: #676661;
+  line-height: 56px;
+}
+.sec_one {
+  background: #f4f3f1;
+  padding-bottom: 20px;
+}
+.sec_one .wrap {
+  width: 1100px;
+  margin: 0 auto;
+  background: #fff;
+}
+.sec_one .wrap .floor_one #top_nav {
+  background: #2c3336;
+  height: 40px;
+}
+.sec_one .wrap .floor_one #top_nav .active {
+  background-color: #0b68c8;
+}
+.sec_one .wrap .floor_one #top_nav a {
+  margin-left: 30px;
+  margin-top: 2px;
+  line-height: 38px;
+  font-size: 13px;
+  color: #fff;
+  padding: 0px 30px;
+  display: inline-block;
+}
+.sec_one .wrap .floor_one #center_nav {
+  margin: 0 0 50px 20px;
+  padding-top: 20px;
+}
+.sec_one .wrap .floor_one #center_nav .active {
+  background-color: #0b68c8;
+  color: #fff;
+}
+.sec_one .wrap .floor_one #center_nav .a {
+  display: inline-block;
+  height: 29px;
+  line-height: 29px;
+  padding: 0 20px;
+}
+.sec_one .wrap .floor_one #bottom_nav {
+  background: #f8f8f7;
+  border: 1px solid #e1dfdb;
+  height: 42px;
+}
+.sec_one .wrap .floor_one #bottom_nav .active {
+  border-top: 4px solid #0068c3;
+  border-bottom: none;
+  background-color: #fff;
+  border-right: 1px solid #e1dfdb;
+  color: #000;
+}
+.sec_one .wrap .floor_one #bottom_nav a {
+  display: inline-block;
+  line-height: 39px;
+  color: #0068c3;
+  padding: 0 38px;
+}
+.sec_one .wrap .floor_one .move {
+  position: relative;
+  margin-top: 30px;
+}
+.sec_one .wrap .floor_one .move #move_content {
+  padding-bottom: 50px;
+}
+.sec_one .wrap .floor_one .move #move_content .content {
+  position: relative;
+  width: 204px;
+  height: 286px;
+  display: inline-block;
+  margin: 20px 8px 20px 8px;
+}
+.sec_one .wrap .floor_one .move #move_content .content a img {
+  width: 204px;
+  height: 286px;
+}
+.sec_one .wrap .floor_one .move #move_content .content .i1 {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 100px;
+  height: 18px;
+  display: inline-block;
+  background-image: url(../images/image/vip-tips.png);
+  background-position: 0 -20px;
+}
+.sec_one .wrap .floor_one .move #move_content .content .i2 {
+  position: absolute;
+  left: 155px;
+  bottom: 10px;
+  padding: 5px;
+  line-height: 18px;
+  display: inline-block;
+  width: 28px;
+  color: #fff;
+  background-color: #000;
+  opacity: 0.6;
+}
+.sec_one .wrap .floor_one .move #move_content .content .i3 {
+  display: block;
+  font-size: 14px;
+  padding: 5px 8px;
+}
+.sec_one .wrap .floor_one .move #move_content .content .i4 {
+  position: relative;
+  display: block;
+  font-size: 12px;
+  height: 20px;
+  color: #9a9690;
+  padding: 3px 8px;
+}
+.sec_one .wrap .floor_one .move #move_content .content .i5 {
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  font-family: Georgia;
+  font-size: 20px;
+  color: #ff6000;
+}
+footer {
+  background-color: #f3f3f3;
+  height: 430px;
+}
+footer .wrap {
+  width: 1100px;
+  margin: 0 auto;
+  border-top: 1px solid #e1dfdb;
+}
+footer .wrap .help {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e1dfdb;
+  width: 1100px;
+  display: flex;
+}
+footer .wrap .help .newbie {
+  margin: 40px 0;
+  padding-left: 50px;
+  width: 224px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .newbie .newbie_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .newbie .newbie_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: 0 -111px;
+}
+footer .wrap .help .newbie .newbie_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .newbie .newbie_a a {
+  line-height: 20px;
+}
+footer .wrap .help .newbie .newbie_a .newbie_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .privilege {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .privilege .privilege_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .privilege .privilege_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -50px -111px;
+}
+footer .wrap .help .privilege .privilege_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .privilege .privilege_a a {
+  line-height: 20px;
+}
+footer .wrap .help .privilege .privilege_a .privilege_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .play {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+  border-right: 1px solid #e1dfdb;
+}
+footer .wrap .help .play .play_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .play .play_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -102px -111px;
+}
+footer .wrap .help .play .play_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .play .play_a a {
+  line-height: 20px;
+}
+footer .wrap .help .play .play_a .play_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .wrap .help .else {
+  margin: 40px 0;
+  width: 224px;
+  padding-left: 50px;
+  position: relative;
+}
+footer .wrap .help .else .else_span {
+  display: inline-block;
+  position: absolute;
+  top: 6px;
+}
+footer .wrap .help .else .else_span span {
+  width: 51px;
+  height: 51px;
+  display: inline-block;
+  background-image: url(../images/image/vip-powers.png);
+  background-position: -153px -111px;
+}
+footer .wrap .help .else .else_a {
+  display: inline-block;
+  margin-left: 70px;
+}
+footer .wrap .help .else .else_a a {
+  line-height: 20px;
+}
+footer .wrap .help .else .else_a .else_a1 {
+  font-weight: 600;
+  line-height: 25px;
+}
+footer .copyright {
+  text-align: center;
+  padding: 50px 0;
+  color: #9a9690;
+  line-height: 25px;
+  width: 1100px;
+  border-top: 1px solid #fff;
+}

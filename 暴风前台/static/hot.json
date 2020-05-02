@@ -1,0 +1,96 @@
+[{
+        "img": "./images/hot/1.jpg",
+        "vip": 1,
+        "definition": 1,
+        "title": "天气预爆",
+        "detail": "奇幻又紧张刺激的旅程",
+        "score": "7.0",
+        "type": 0
+
+    },
+    {
+        "img": "./images/hot/2.jpg",
+        "vip": 2,
+        "definition": 2,
+        "title": "西虹市首富",
+        "detail": "有钱更烦恼的人生",
+        "score": "8.8",
+        "type": 0
+    },
+    {
+        "img": "./images/hot/3.jpg",
+        "vip": 1,
+        "definition": 2,
+        "title": "我不是药神",
+        "detail": "徐峥走私印度抗癌药",
+        "score": "9.4",
+        "type": 0
+    },
+    {
+        "img": "./images/hot/4.jpg",
+        "vip": 2,
+        "definition": 3,
+        "title": "红海行动",
+        "detail": "中国海军上演跨国救援",
+        "score": "9.3",
+        "type": 0
+
+    },
+    {
+        "img": "./images/hot/5.jpg",
+        "vip": 3,
+        "definition": 3,
+        "title": "捉鬼记",
+        "detail": "知性女编遇恶鬼",
+        "score": "3.8",
+        "type": 0
+
+    },
+
+    {
+        "img": "./images/recommend/1.jpg",
+        "vip": 1,
+        "definition": 1,
+        "title": "外乡人",
+        "detail": "上海外来人员的辛酸与甘甜",
+        "score": "9.1",
+        "type": 1
+
+    },
+    {
+        "img": "./images/recommend/2.jpg",
+        "vip": 2,
+        "definition": 3,
+        "title": "叶问外传：张天志",
+        "detail": "正义中的胜负抗衡",
+        "score": "8.9",
+        "type": 1
+    },
+    {
+        "img": "./images/recommend/3.jpg",
+        "vip": 2,
+        "definition": 3,
+        "title": "断片之险途夺宝",
+        "detail": "一个亿的冒险之旅",
+        "score": "5.2",
+        "type": 1
+    },
+    {
+        "img": "./images/recommend/4.jpg",
+        "vip": 2,
+        "definition": 3,
+        "title": "李茶的姑妈",
+        "detail": "开心麻花第四部电影",
+        "score": "7.2",
+        "type": 1
+    },
+    {
+        "img": "./images/recommend/5.jpg",
+        "vip": 2,
+        "definition": 3,
+        "title": "环太平洋：雷霆再起",
+        "detail": "人类最后的希望",
+        "score": "9.1",
+        "type": 1
+    }
+]
